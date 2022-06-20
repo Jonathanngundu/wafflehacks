@@ -6,7 +6,7 @@ def event_mail(x,y):
     server.starttls()
     server.ehlo()
 
-    server.login("NJ12jonathan@gmail.com", 'Jonathan@2007') 
+    server.login("", '') 
 
     msg = f"Subject: Food kitchen event\n\n{y}"
 
